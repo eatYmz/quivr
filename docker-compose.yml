@@ -20,7 +20,7 @@ services:
       - backend-core
     restart: always
     ports:
-      - 3000:3000
+      - 3010:3010
 
   backend-core:
     image: stangirard/quivr-backend-prebuilt:latest
